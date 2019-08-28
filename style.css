@@ -391,7 +391,7 @@ img {
     text-align: center;
 }
 
-.about-2 {
+.cards {
     background: darkseagreen;
 }
 
@@ -447,6 +447,9 @@ div label {
     font-size: 2rem;
 }
 
+
+/********FOOTER STYLES*********/
+
 footer {
     margin-top: 5%;
     text-align: center;
@@ -454,4 +457,174 @@ footer {
     color: darkseagreen;
     font-size: 2rem;
     padding: 2% 0;
+}
+
+
+/***********MEDIA QUERIES*********/
+
+@media (max-width: 500px) {
+    nav {
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 100%;
+    }
+    nav a {
+        text-decoration: none;
+        color: midnightblue;
+        margin-right: 2%;
+        font-size: 2rem;
+        font-family: 'Playfair Display', Serif;
+        font-weight: bold;
+    }
+    .main-sec h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .main-sec p {
+        margin-top: 5%;
+        font-size: 2rem;
+        color: midnightblue;
+        font-weight: bold;
+        background: darkseagreen;
+        text-align: center;
+    }
+    .main-sec a {
+        margin-top: 1%;
+        color: darkseagreen;
+        width: 125px;
+        display: block;
+        background-color: midnightblue;
+        text-decoration: none;
+        cursor: pointer;
+        height: 20px;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        padding-top: 3%;
+        text-align: center;
+    }
+    .features-btn {
+        margin-top: 4%;
+    }
+    .login-btn {
+        margin-top: 2%;
+    }
+    .features h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .features p {
+        font-size: 2rem;
+        margin-top: 2%;
+        background: darkseagreen;
+        color: midnightblue;
+        text-align: center;
+        padding: 0.5% 0;
+    }
+    .features ul {
+        margin-top: 4%;
+        font-size: 1.1rem;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .features-list2 ul {
+        margin-top: 2%;
+        font-size: 1.1rem;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .features-list2 ul {
+        margin-bottom: 2%;
+    }
+    .features h3 {
+        margin-top: 2%;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .about h2 {
+        padding-top: 4%;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .about h3 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    img {
+        height: 250px;
+        width: 250px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around;
+        flex-wrap: wrap; */
+    }
+    .card h4 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .card p {
+        margin-top: .5%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .container {
+        padding: 2px 8px;
+    }
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 3%;
+        margin-top: 3%;
+        border-radius: 5px 0 0 0;
+    }
+    .cards {
+        background: darkseagreen;
+        padding-bottom: 2%;
+    }
+    .contact {
+        margin-top: 410%;
+    }
+    .contact h2 {
+        margin-top: 3%;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    input[type=text],
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: 1.4rem;
+    }
+    input[type=submit] {
+        background-color: darkseagreen;
+        color: midnightblue;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+    div label {
+        font-size: 1.6rem;
+    }
+    footer {
+        margin-top: 60%;
+        margin-left: 25%;
+        width: 50%;
+        border-radius: 5px;
+        font-size: 1.2rem;
+    }
 }
